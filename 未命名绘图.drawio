@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T09:40:19.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="PubqnJ-iqqtGvE-mxcV2" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T09:42:49.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="8nT8WZv3TCGsm8zAaCb6" version="24.2.5" type="github">
   <diagram name="第 1 页" id="if8XLQDDpq4Y46Zh3Ne9">
     <mxGraphModel dx="1002" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="am-YZdn-36sNqQUv7T_v-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux_Non_Azure.svg;" vertex="1" parent="1">
           <mxGeometry x="140" y="246" width="96.74" height="89" as="geometry" />
         </mxCell>
-        <mxCell id="am-YZdn-36sNqQUv7T_v-3" value="Metasploit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="143" y="337" width="100" height="34" as="geometry" />
+        <mxCell id="am-YZdn-36sNqQUv7T_v-3" value="Kali" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="169" y="337" width="48" height="34" as="geometry" />
         </mxCell>
         <mxCell id="am-YZdn-36sNqQUv7T_v-4" value="Windows7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="509" y="337" width="101" height="34" as="geometry" />
