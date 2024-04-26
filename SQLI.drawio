@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T08:31:16.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.2.5" etag="t74bttIvNIuWoORfVqYR" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T09:06:13.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="oQ32Urkj9I79TDw04yEW" version="24.2.5" type="github">
   <diagram name="第 1 页" id="rrujsx1Q11fEwT99_Br-">
-    <mxGraphModel>
+    <mxGraphModel dx="1002" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="68" y="237" width="80" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="323" y="220" width="68.32" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="595" y="218" width="167.56" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.009;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Lu0Id8iDB990Jzz--y7n-1" target="Lu0Id8iDB990Jzz--y7n-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="115" y="259" as="sourcePoint" />
+            <mxPoint x="165" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.015;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Lu0Id8iDB990Jzz--y7n-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386" y="261" as="sourcePoint" />
+            <mxPoint x="540" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.013;exitY=0.787;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Lu0Id8iDB990Jzz--y7n-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="319" as="sourcePoint" />
+            <mxPoint x="386" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="318" y="315" as="sourcePoint" />
+            <mxPoint x="152" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-13" value="攻击者" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="347" width="72" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-15" value="Web服务器" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295.99999999999994" y="347" width="109" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-16" value="数据库服务器" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612" y="347" width="126" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-17" value="1.构造SQL&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;注入语句并发送&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="199" width="196" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-18" value="2.SQL&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;注入语句提交到数据库&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="388" y="199" width="211" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-19" value="3.&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;返回SQL注入语句执行结果&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="391.32" y="326" width="211" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-20" value="4.返回SQL注入&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;执行结果&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="326" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu0Id8iDB990Jzz--y7n-22" value="SQL注入流程图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="286" y="391" width="151" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
